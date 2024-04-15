@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CiiLOCK.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240414131227_addForeignKeyForCategoryProductRelation")]
+    [Migration("20240415094446_addForeignKeyForCategoryProductRelation")]
     partial class addForeignKeyForCategoryProductRelation
     {
         /// <inheritdoc />
